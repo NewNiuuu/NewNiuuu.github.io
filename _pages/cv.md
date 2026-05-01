@@ -46,8 +46,9 @@ Skills
 
 Publications
 ======
-  <ul><li><a href="https://arxiv.org/abs/2507.20115">Packet-Level DDoS Data Augmentation Using Dual-Stream Temporal-Field Diffusion</a> (SECON 2026)</li>
-  </ul>
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
 <!-- Talks
 ======
